@@ -1,6 +1,6 @@
 package Quiz1;
 
-public class M8 {
+public class M3_1 {
 
     /**
      * 1-dən 100-ə qədər olan bütün tək ədədləri ekrana yazdırın.*/

@@ -2,7 +2,7 @@ package Quiz1;
 
 import java.util.Scanner;
 
-public class M2 {
+public class M1_2 {
     /**
      * Məsələ 2:
      * Bir ədəd alın və həmin ədədin sadə, ya da mürəkkəb olduğunu yoxlayan bir proqram yazın.

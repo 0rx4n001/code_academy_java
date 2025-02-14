@@ -2,7 +2,7 @@ package Quiz1;
 
 import java.util.Scanner;
 
-public class M12 {
+public class M4_1 {
 
     /**
      * İstifadəçidən bir ədəd alın və bu ədədin asal olub olmadığını yoxlayın. Əgər asal ədədirsə,

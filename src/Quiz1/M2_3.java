@@ -1,6 +1,6 @@
 package Quiz1;
 import java.util.Scanner;
-public class M7 {
+public class M2_3 {
 /**
  * İstifadəçidən iki ədəd və bir əməliyyat işarəsi (+, -, *, /) alın.
  * Bu əməliyyatı yerinə yetirin və nəticəni yazdırın. Əgər istifadəçi səhv

@@ -2,7 +2,7 @@ package Quiz1;
 
 import java.util.Scanner;
 
-public class M4 {
+public class M1_4 {
     /**
      * Məsələ 4:
      * İstifadəçidən iki ədəd və bir əməliyyat işarəsi (+, -, *, /) alın. Bu əməliyyatı yerinə yetirin və nəticəni yazdırın. Əgər istifadəçi səhv əməliyyat işarəsi daxil edərsə, "Yanlış əməliyyat" mesajını yazdırın.

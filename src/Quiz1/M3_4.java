@@ -1,6 +1,6 @@
 package Quiz1;
 import java.util.Scanner;
-public class M11 {
+public class M3_4 {
 
     /**İstifadəçidən bir ədəd alın və həmin ədədin hər bir
      * rəqəmini ayrı-ayrılıqda ekrana yazdırın.

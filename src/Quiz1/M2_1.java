@@ -2,7 +2,7 @@ package Quiz1;
 
 import java.util.Scanner;
 
-public class M5 {
+public class M2_1 {
 
 /**İstifadəçidən bir aylıq nömrə (1-12 arası) alın və
  həmin ayın adını (Yanvar, Fevral, və s.) ekrana yazdırın.

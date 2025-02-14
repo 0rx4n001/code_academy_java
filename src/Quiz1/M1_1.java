@@ -2,7 +2,7 @@ package Quiz1;
 
 import java.util.Scanner;
 
-public class M1 {
+public class M1_1 {
 
     /**
      * Məsələ 1:

@@ -6,7 +6,7 @@ package Quiz1;
 
 import java.util.Scanner;
 
-public class M6 {
+public class M2_2 {
 
     /**
      * İstifadəçidən bir məktub (A, B, C, D və s.) alın və

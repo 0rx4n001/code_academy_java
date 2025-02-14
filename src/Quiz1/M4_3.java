@@ -3,7 +3,7 @@ package Quiz1;
 import java.util.Scanner;
 
 
-public class M13 {
+public class M4_3 {
 
     /**
      * Kullanıcıdan bir ədəd alın və bu ədədin daxilindəki
