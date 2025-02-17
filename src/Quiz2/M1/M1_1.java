@@ -1,5 +1,6 @@
 package Quiz2.M1;
- import java.util.Scanner;
+
+import java.util.Scanner;
 
 
 public class M1_1 {
@@ -7,7 +8,8 @@ public class M1_1 {
     /**
      * Məsələ 1:
      * İstifadəçidən 5 ədəd daxil edin və bu ədədlərin toplamını
-     * və orta qiymətini hesablayan bir proqram yazın.*/
+     * və orta qiymətini hesablayan bir proqram yazın.
+     */
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -17,7 +19,7 @@ public class M1_1 {
 
         M1_1_Arr_oper.massivDoldur(numbers);
 
-        System.out.println("Hansı əməliyyatı icra etmək istəyirsiniz? (+ və ya /)");
+        System.out.println("Hansı əməliyyatı icra etmək istəyirsiniz? + (ədədlərin toplamı) və ya / (orta qiymət)");
         char op = scanner.next().charAt(0);
 
         if (op == ('+')) {
