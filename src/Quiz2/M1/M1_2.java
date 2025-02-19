@@ -1,7 +1,5 @@
 package Quiz2.M1;
 
-import java.util.Scanner;
-
 public class M1_2 {
 
     /**
@@ -9,11 +7,7 @@ public class M1_2 {
      */
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Massivə neçə ədəd daxil etmək istəyirsiniz?");
-        int n = sc.nextInt();
-        int[] numbers = new int[n];
-        M1_1_Arr_oper.massivDoldur(numbers);
+        int[] numbers = M1_1_Arr_oper.getArr();
         int[] minMax = M1_1_Arr_oper.findMinMax(numbers);
         System.out.println("Massivin ən kiçik elementi: " + minMax[0] + " Massivin ən böyük elementi: " + minMax[1]);
     }

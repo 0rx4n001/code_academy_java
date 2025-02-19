@@ -3,14 +3,21 @@ package Quiz2.M1;
 import java.util.Scanner;
 
 public class M1_1_Arr_oper {
-    public static void massivDoldur(int[] numbers) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println(numbers.length + " ədəd daxil edin:");
+    public static int[] getArr() {
+        Scanner sc = new Scanner(System.in);
 
-        for (int i = 0; i < numbers.length; i++) {
+        System.out.print("Massivin neçə elementi olsun? ");
+        int n = sc.nextInt();
+
+        int[] newArray = new int[n];
+        System.out.println(n + " ədəd daxil edin:");
+
+        for (int i = 0; i < n; i++) {
             System.out.print((i + 1) + ". ədəd: ");
-            numbers[i] = scanner.nextInt();
+            newArray[i] = sc.nextInt();
         }
+
+        return newArray;
     }
 
     public static int cemiHesabla(int[] numbers) {
@@ -108,6 +115,36 @@ public class M1_1_Arr_oper {
         }
         return oddNums;
     }
+
+    public static int[] getreversedArr(int[] numbers) {
+        int[] temparr = new int[numbers.length];
+        int index = 0;
+        for (int i = numbers.length - 1; i >= 0; i--) {
+            temparr[index++] = numbers[i];
+        }
+        return temparr;
+    }
+
+
+    public static void sortArr(int[] arr) {
+
+        for (int i = 0; i < arr.length - 1; i++) {
+            int minIndex = i;
+
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[j] < arr[minIndex]) {
+                    minIndex = j;
+                }
+            }
+
+            if (minIndex != i) {
+                int temp = arr[minIndex];
+                arr[minIndex] = arr[i];
+                arr[i] = temp;
+            }
+        }
+    }
+
 
 
 }

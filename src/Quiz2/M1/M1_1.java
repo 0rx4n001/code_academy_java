@@ -13,15 +13,9 @@ public class M1_1 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Neçə ədəd daxil etmək istəyirsiniz? ");
-        int n = scanner.nextInt();
-        int[] numbers = new int[n];
-
-        M1_1_Arr_oper.massivDoldur(numbers);
-
+        int[] numbers = M1_1_Arr_oper.getArr();
         System.out.println("Hansı əməliyyatı icra etmək istəyirsiniz? + (ədədlərin toplamı) və ya / (orta qiymət)");
         char op = scanner.next().charAt(0);
-
         if (op == ('+')) {
             int sum = M1_1_Arr_oper.cemiHesabla(numbers);
             System.out.println("Massivin cəmi: " + sum);
