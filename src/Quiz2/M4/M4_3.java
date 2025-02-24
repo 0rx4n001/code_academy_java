@@ -15,14 +15,21 @@ public class M4_3 {
         Scanner sc = new Scanner(System.in);
         int[]arr = M1_1_Arr_oper.getArr();
         Arrays.sort(arr);
-        System.out.println("Artan sıra üçün + , Azalan sıra üçün - daxil edin!");
-        char ch = sc.next().charAt(0);
-        if (ch == '+') {
-            M1_1_Arr_oper.showArr(arr);
-        }else{
-            M1_1_Arr_oper.getreversedArr(arr);
-            M1_1_Arr_oper.showArr(arr);
+
+        while (true) {
+            System.out.println("Proqramdan çıxmaq üçün 0 daxil et. Artan sıra üçün + , Azalan sıra üçün - daxil edin!");
+            char ch = sc.next().charAt(0);
+            if (ch == '0') {
+                break;
+            }
+            if (ch == '+') {
+                M1_1_Arr_oper.showArr(arr);
+            }else{
+                arr = M1_1_Arr_oper.getreversedArr(arr);
+                M1_1_Arr_oper.showArr(arr);
+            }
         }
+
 
     }
 }

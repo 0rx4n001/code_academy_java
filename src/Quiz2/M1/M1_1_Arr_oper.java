@@ -126,7 +126,7 @@ public class M1_1_Arr_oper {
     }
 
 
-    public static void sortArr(int[] arr) {
+    public static int[] sortArr(int[] arr) {
 
         for (int i = 0; i < arr.length - 1; i++) {
             int minIndex = i;
@@ -143,6 +143,7 @@ public class M1_1_Arr_oper {
                 arr[i] = temp;
             }
         }
+        return arr;
     }
 
 

@@ -14,14 +14,20 @@ public class M2_2 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Ədədi daxil edin: ");
-        int n = sc.nextInt();
-        int[] reversedNumber = new int[n];
-        int index = 0;
-        for (int i = n - 1; i >= 0; i--) {
-            reversedNumber[index++] = i + 1;
-        }
-        M1_1_Arr_oper.showArr(reversedNumber);
+        System.out.println("Proqramdan çıxmaq üçün 0 daxil edin. Ədədi daxil edin: ");
+        while (true) {
+            int n = sc.nextInt();
+            if (n == 0) {
+                break;
+            }
 
+
+            int[] reversedNumber = new int[n];
+            int index = 0;
+            for (int i = n - 1; i >= 0; i--) {
+                reversedNumber[index++] = i + 1;
+            }
+            M1_1_Arr_oper.showArr(reversedNumber);
+        }
     }
 }

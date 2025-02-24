@@ -13,10 +13,11 @@ public class M4_2 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int[]arr = M1_1_Arr_oper.getArr();
-        Arrays.sort(arr);
-        M1_1_Arr_oper.getreversedArr(arr);
-        M1_1_Arr_oper.showArr(arr);
+        int[] arr = M1_1_Arr_oper.getArr();
 
+        arr = M1_1_Arr_oper.getreversedArr(M1_1_Arr_oper.sortArr(arr));
+
+        M1_1_Arr_oper.showArr(arr);
     }
+
 }

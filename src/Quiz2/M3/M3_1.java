@@ -15,19 +15,29 @@ public class M3_1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] numbers = M1_1_Arr_oper.getArr();
-        boolean flag = false;
+        boolean flag;
 
-        System.out.println("Axtarış etmək istədiyiniz ədədi daxil edin: ");
-        int j = sc.nextInt();
-        for (int i = 0; i < numbers.length; i++) {
-            if (numbers[i] == j) {
-                System.out.print(numbers[i] + " massivin " + (++i) + "-ci elementidir");
-                flag = true;
+        while (true) {
+            flag = false;
+            System.out.println("Proqramdan çıxmaq üçün 0 daxil edin. Axtarış etmək istədiyiniz ədədi daxil edin: ");
+            int j = sc.nextInt();
+
+            if (j == 0) {
+                break;
+            }
+
+            for (int i = 0; i < numbers.length; i++) {
+                if (numbers[i] == j) {
+                    System.out.println(numbers[i] + " massivin " + (i + 1) + "-ci elementidir");
+                    flag = true;
+                }
+            }
+
+            if (!flag) {
+                System.out.println("Axtardığınız ədəd massivdə yoxdur!");
             }
         }
-        if (!flag) {
-            System.out.println("Axtardığınız ədəd massivdə yoxdur!");
-        }
 
+        sc.close();
     }
 }
