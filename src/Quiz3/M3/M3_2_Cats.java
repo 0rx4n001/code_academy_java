@@ -7,7 +7,7 @@ public class M3_2_Cats extends M3_2_Animals{
 
 
     public void sound() {
-
+        super.dispInfo();
         System.out.println("Miyav-Miyav");
 
     }

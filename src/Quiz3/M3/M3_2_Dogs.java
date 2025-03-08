@@ -8,6 +8,7 @@ public class M3_2_Dogs extends M3_2_Animals {
 
 
     public void sound() {
+        super.dispInfo();
         System.out.println("Hav-Hav!");
     }
 }

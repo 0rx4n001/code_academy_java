@@ -12,4 +12,8 @@ public abstract class M3_2_Animals {
     private void sound(){
         System.out.println("Her heyvanin oz sesi var!");
     };
+    public void dispInfo(){
+        System.out.println("Name: " + name + " Age: " + age);
+    }
+
 }
