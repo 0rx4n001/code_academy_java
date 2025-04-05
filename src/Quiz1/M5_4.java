@@ -26,7 +26,7 @@ public class M5_4 {
                 System.out.println("Ən kiçik ədəd: " + y);
             }
         }
-        while (x != 0 && y != 0);
+        while (x != 0 || y != 0);
         System.out.println("0 daxil etdiyiniz üçün proses sonlandı!");
         sc.close();
     }
